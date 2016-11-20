@@ -5,7 +5,7 @@ This project is a bunch of java classes with a public static void main used for 
 (and see what happens if I change code here or there..., so, getting away expert doubts, fool doubts, or/and just for remebering 
 some rules of Java SE API), specifically, version 8.
 
-I wrote this bunch of code to learning goal and studying for a Java certification.
+I wrote this bunch of code for learning aim and studying for a Java certification.
 
 Do not expect expert code here and classes with comments explaining what is going on.
 Some of classes does not even compile.
