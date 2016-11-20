@@ -1,0 +1,26 @@
+-> Anotações sobre Polimorfismo:
+
+
+@Static and Instance methods:
+- Para TODOS métodos 'staticos' (static) e métodos de instância de uma 
+CLASSE (Não interface) é possível acessá-los por meio da variável de referencia do objeto;
+
+- Para interface, somente é possível acessar métodos staticos por meio
+do  nome da Interface.
+
+- For default methods from interface, its ok to access them by object's reference;
+
+ex.:
+interface I1 {
+	static void print() {
+		System.out.println("Static method from interface");
+	}
+}
+
+class TestClass implements I1 {
+	public static void main(String...args) {
+		TestClass t = new TestClass();
+		r.print();	//	<---------- @DO NOT COMPILE;
+		I1.print();	//  < OK - It`s compile
+	}
+}

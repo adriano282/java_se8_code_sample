@@ -1,0 +1,29 @@
+import java.io.*;
+
+public class Directory {
+	public static void main(String[] args) throws IOException {
+	
+		File myDir = new File("content/myDirA");
+		System.out.println(myDir.isDirectory());
+
+		File myFile = new File(myDir, "file.txt");
+		System.out.println(myFile.isFile());
+
+		PrintWriter pw = new PrintWriter(myFile);
+		pw.println("I am a winner");
+		pw.println("I going to be a oracle certified professional Java 8");
+		
+		pw.flush();
+		pw.close();
+		
+		BufferedReader br = new BufferedReader(new FileReader(myFile));
+
+		String line;
+		while ((line = br.readLine()) != null) {
+			System.out.println(line);
+		}
+		br.close();
+		
+		
+	}
+}
