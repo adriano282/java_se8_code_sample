@@ -9,3 +9,6 @@ Do not expect expert code here and classes with comments explaining what is goin
 Some of classes does not even compile.
 
 I write this bunch of code to learning goal and studying for a Java certification.
+
+
+Have fun! :)
