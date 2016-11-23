@@ -6,6 +6,8 @@ This project is a bunch of java classes with a public static void main used for 
 I wrote this bunch of code for learning aim and studying for a Java certification.
  
 Do not expect expert code here and classes with comments explaining what is going on.
-Some of classes does not even compile.
+Some of classes does not even compile. 
+But I think this code will maybe helpful to make you think about some very interesting aspects of Java SE.
+(Generics, Stream, Collections, ForkJoin Framework and etc)
 
 Have fun! :)
