@@ -14,6 +14,14 @@ public class TestClass {
 		|--- A1:
 			  | ---- A2
 	*/
+	/*
+		To run this file, copy it and save as TestClass.java
+		Then, open a terminal, and go to where you saved the file
+		Type the command:
+			javac TestClass.java
+		And Then type:
+			java TestClass
+	*/
 
 	// Where List<E>: E >= A1;
 	// So, this method only accepts lists of objects of type: 
