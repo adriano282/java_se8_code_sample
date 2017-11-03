@@ -42,7 +42,7 @@ public class TestClass {
 
 		// Using List<? super A1> you cannot get nothing
 		// beyond literaly Objects, because the compile does not know
-		// what is in fact these objects, only knows that are
+		// what are in fact these objects, only knows that are
 		// superTypes of A1 type;
 
 		// Does NOT COMPILE
